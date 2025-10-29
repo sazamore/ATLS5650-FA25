@@ -33,4 +33,5 @@ word8 = input("Next give me a noun. ")
 word9 = input("Next give me a plural noun. ")
 word10 = input("Finally, give me a noun. ")
 
+
 print("The lights flickered on to reveal a " + word1 + " room filled with puzzles, each locked behind " + word2 + " and " + word3 + "A " + word4 + " voice crackled through a speaker: To Leave, you must solve what " + word5 + "you world. " + playerName + " spotteda wall of " + word6 + " and used their " + word7 + " to sort them by type, revealing a " + word8 + ". The floor creaked open to a tunnel lit by " + word9 + " guiding them towards freedom. As they emerged into daylight, they found a note: You chose " + word10 + " over fear. Well done.")

@@ -1,30 +1,9 @@
 ## Resources for Intro to Programming
-### Lab 8 - Pygame & functions
-Some features to add to make a game addictive:<br>
-    - Simple game design (visuals, goals)<br>
-    - Low skill expected compared to performance (easy controls, or game interaction)<br>
-    - Unpredictable reinforcement (randomness of difficulty, reward)<br>
-    - Collecting items that do not pertain to goal<br>
-    - Near-miss events or slowly increasing difficulty<br>
-    - Culturally or socially relevants (somethingto talk about)
-
-Lab 8 prompt for Claude: 
-
-<code>Let's vibe code to make a step-by-step tutorial for building a simple, single level game in Python using pygame. Start with simple versions before adding complexity. Do not produce code examples until I expressly request it. Show syntax for coding concepts (such as loops and functions). Do not create objects or use OOP. Use comments in any example code to explain what each section of code does.
-Do not include demonstration or code that 
-   increase difficulty or frustration in the game
-   add pause functionality
-   collecting items outside of points to the game
-   sound effects
-   start or game over screens</code>
-   
-In the Lab 8 folder, you will find two files:
-- **pygame_template.py** - shows the flow and organization for a pygame script. You can download this and give it to Claude to follow this organization, though it should match it pretty closly already.
-
-    **The Flow**:<br>
-    *Top Section*: Set up constants and initialize pygame <br>
-    *Middle Sections*: Define your variables, classes, and functions <br>
-    *Game Loop*: The heart of the game - runs 60 times per second<br>
-    *Bottom*: Clean exit
-
-- **function_example.py** - shows how to create functions with no parameter, one parameter and multiple parameters, then how to call each with respective arguments. Use this to help you create extensions for your game
+### Lab 8 - Pygame Projects
+There are 6 exemplary projects, which have been anonymized and many given names. They are:
+    - `BubbleClickGame.py` - Selected for unique game design, exploration of window size, exemplary use of sound (numpy)
+    - `ClickGame_pygame.py` - Selected for unique game design, uses of visual reward (gentle screen flash)
+    - `Cookie_clicker_challenge.py` - Selected for clear use of template to build code (note cleanliness and expandability), very clear instructios and use of distractors. **Note** this code uses an image (successfully) be sure to also donwload `cookie.png` to the same folder so the code executes properly.
+    - `GnomeFrogger.py` - Selected with color augmentation to increase visibility. This program aws chosen for addictive quality from increased challenge across levels.
+    - `RacingGame.py` - Selected for expandability. The script can easily be organized into functions and eventually objects.
+    - `TypeBlast.py` - Selected for increase in challenge (speed), very unique game design, and use of pygame template. Note the expandibility from use of the template.
